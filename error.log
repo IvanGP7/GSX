@@ -1,0 +1,805 @@
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  zplug
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 75,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 327 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 zplug all 2.4.2-2 [75,3 kB]
+S'ha baixat 75,3 kB en 0s (791 kB/s)
+S'està seleccionant el paquet zplug prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574250 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/archives/zplug_2.4.2-2_all.deb…
+S'està desempaquetant zplug (2.4.2-2)…
+S'està configurant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  tcvt
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 10,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 44,0 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 tcvt all 0.1.20171010-5 [10,3 kB]
+S'ha baixat 10,3 kB en 0s (136 kB/s)
+S'està seleccionant el paquet tcvt prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574391 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/tcvt_0.1.20171010-5_all.deb…
+S'està desempaquetant tcvt (0.1.20171010-5)…
+S'està configurant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  libsleef3
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 731 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 2.846 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 libsleef3 amd64 3.5.1-3 [731 kB]
+S'ha baixat 731 kB en 0s (2.677 kB/s)
+S'està seleccionant el paquet libsleef3:amd64 prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574398 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/libsleef3_3.5.1-3_amd64.deb…
+S'està desempaquetant libsleef3:amd64 (3.5.1-3)…
+S'està configurant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  cvsgraph
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 80,6 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 297 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 cvsgraph amd64 1.7.0-5+b1 [80,6 kB]
+S'ha baixat 80,6 kB en 0s (904 kB/s)
+S'està seleccionant el paquet cvsgraph prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574406 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/cvsgraph_1.7.0-5+b1_amd64.deb…
+S'està desempaquetant cvsgraph (1.7.0-5+b1)…
+S'està configurant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  zplug
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 327 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574420 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  tcvt
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 44,0 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574279 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  libsleef3
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 2.846 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574272 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  cvsgraph
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 297 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574264 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet kdfsb
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet 38hhfww9
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet dfdf432
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet poopppp33333
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+S'instal·laran els paquets NOUS següents:
+  cvsgraph
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 80,6 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 297 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 cvsgraph amd64 1.7.0-5+b1 [80,6 kB]
+S'ha baixat 80,6 kB en 0s (828 kB/s)
+S'està seleccionant el paquet cvsgraph prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574250 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/cvsgraph_1.7.0-5+b1_amd64.deb…
+S'està desempaquetant cvsgraph (1.7.0-5+b1)…
+S'està configurant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  zplug
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 75,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 327 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 zplug all 2.4.2-2 [75,3 kB]
+S'ha baixat 75,3 kB en 0s (548 kB/s)
+S'està seleccionant el paquet zplug prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574264 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/archives/zplug_2.4.2-2_all.deb…
+S'està desempaquetant zplug (2.4.2-2)…
+S'està configurant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  tcvt
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 10,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 44,0 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 tcvt all 0.1.20171010-5 [10,3 kB]
+S'ha baixat 10,3 kB en 0s (102 kB/s)
+S'està seleccionant el paquet tcvt prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574405 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/tcvt_0.1.20171010-5_all.deb…
+S'està desempaquetant tcvt (0.1.20171010-5)…
+S'està configurant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  libsleef3
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 731 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 2.846 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 libsleef3 amd64 3.5.1-3 [731 kB]
+S'ha baixat 731 kB en 0s (2.316 kB/s)
+S'està seleccionant el paquet libsleef3:amd64 prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574412 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/libsleef3_3.5.1-3_amd64.deb…
+S'està desempaquetant libsleef3:amd64 (3.5.1-3)…
+S'està configurant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  zplug
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 327 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574420 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  tcvt
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 44,0 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574279 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  libsleef3
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 2.846 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574272 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  cvsgraph
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 297 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574264 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet kdfsb
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet 38hhfww9
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet dfdf432
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet poopppp33333
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  zplug
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 75,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 327 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 zplug all 2.4.2-2 [75,3 kB]
+S'ha baixat 75,3 kB en 0s (589 kB/s)
+S'està seleccionant el paquet zplug prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574250 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/archives/zplug_2.4.2-2_all.deb…
+S'està desempaquetant zplug (2.4.2-2)…
+S'està configurant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  tcvt
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 10,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 44,0 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 tcvt all 0.1.20171010-5 [10,3 kB]
+S'ha baixat 10,3 kB en 0s (56,3 kB/s)
+S'està seleccionant el paquet tcvt prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574391 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/tcvt_0.1.20171010-5_all.deb…
+S'està desempaquetant tcvt (0.1.20171010-5)…
+S'està configurant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  libsleef3
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 731 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 2.846 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 libsleef3 amd64 3.5.1-3 [731 kB]
+S'ha baixat 731 kB en 0s (2.556 kB/s)
+S'està seleccionant el paquet libsleef3:amd64 prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574398 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/libsleef3_3.5.1-3_amd64.deb…
+S'està desempaquetant libsleef3:amd64 (3.5.1-3)…
+S'està configurant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  cvsgraph
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 80,6 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 297 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 cvsgraph amd64 1.7.0-5+b1 [80,6 kB]
+S'ha baixat 80,6 kB en 0s (481 kB/s)
+S'està seleccionant el paquet cvsgraph prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574406 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/cvsgraph_1.7.0-5+b1_amd64.deb…
+S'està desempaquetant cvsgraph (1.7.0-5+b1)…
+S'està configurant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  zplug
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 327 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574420 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  tcvt
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 44,0 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574279 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  libsleef3
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 2.846 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574272 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  cvsgraph
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 297 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574264 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet kdfsb
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet 38hhfww9
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet dfdf432
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet poopppp33333
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  zplug
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 75,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 327 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 zplug all 2.4.2-2 [75,3 kB]
+S'ha baixat 75,3 kB en 0s (602 kB/s)
+S'està seleccionant el paquet zplug prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574250 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/archives/zplug_2.4.2-2_all.deb…
+S'està desempaquetant zplug (2.4.2-2)…
+S'està configurant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  tcvt
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 10,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 44,0 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 tcvt all 0.1.20171010-5 [10,3 kB]
+S'ha baixat 10,3 kB en 0s (84,3 kB/s)
+S'està seleccionant el paquet tcvt prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574391 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/tcvt_0.1.20171010-5_all.deb…
+S'està desempaquetant tcvt (0.1.20171010-5)…
+S'està configurant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  cvsgraph
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 80,6 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 297 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 cvsgraph amd64 1.7.0-5+b1 [80,6 kB]
+S'ha baixat 80,6 kB en 0s (199 kB/s)
+S'està seleccionant el paquet cvsgraph prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574398 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/cvsgraph_1.7.0-5+b1_amd64.deb…
+S'està desempaquetant cvsgraph (1.7.0-5+b1)…
+S'està configurant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  zplug
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 327 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574412 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  tcvt
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 44,0 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574271 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquet «libsleef3» no està instal·lat, així que no se suprimirà
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+0 actualitzats, 0 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  cvsgraph
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 297 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574264 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet kdfsb
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet 38hhfww9
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet poopppp33333
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  zplug
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 75,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 327 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 zplug all 2.4.2-2 [75,3 kB]
+S'ha baixat 75,3 kB en 0s (471 kB/s)
+S'està seleccionant el paquet zplug prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574250 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/archives/zplug_2.4.2-2_all.deb…
+S'està desempaquetant zplug (2.4.2-2)…
+S'està configurant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  tcvt
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 10,3 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 44,0 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 tcvt all 0.1.20171010-5 [10,3 kB]
+S'ha baixat 10,3 kB en 0s (56,1 kB/s)
+S'està seleccionant el paquet tcvt prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574391 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/tcvt_0.1.20171010-5_all.deb…
+S'està desempaquetant tcvt (0.1.20171010-5)…
+S'està configurant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  libsleef3
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 731 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 2.846 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 libsleef3 amd64 3.5.1-3 [731 kB]
+S'ha baixat 731 kB en 0s (2.652 kB/s)
+S'està seleccionant el paquet libsleef3:amd64 prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574398 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/libsleef3_3.5.1-3_amd64.deb…
+S'està desempaquetant libsleef3:amd64 (3.5.1-3)…
+S'està configurant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+S'instal·laran els paquets NOUS següents:
+  cvsgraph
+0 actualitzats, 1 nous a instal·lar, 0 a suprimir i 322 no actualitzats.
+S'ha d'obtenir 80,6 kB d'arxius.
+Després d'aquesta operació s'utilitzaran 297 kB d'espai en disc addicional.
+Bai:1 http://deb.debian.org/debian bookworm/main amd64 cvsgraph amd64 1.7.0-5+b1 [80,6 kB]
+S'ha baixat 80,6 kB en 0s (796 kB/s)
+S'està seleccionant el paquet cvsgraph prèviament no seleccionat.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574406 fitxers i directoris instal·lats actualment.)
+S'està preparant per a desempaquetar …/cvsgraph_1.7.0-5+b1_amd64.deb…
+S'està desempaquetant cvsgraph (1.7.0-5+b1)…
+S'està configurant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  zplug
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 327 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574420 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant zplug (2.4.2-2)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  tcvt
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 44,0 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574279 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant tcvt (0.1.20171010-5)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  libsleef3
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 2.846 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574272 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant libsleef3:amd64 (3.5.1-3)…
+S'estan processant els activadors per a libc-bin (2.36-9+deb12u4)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+El paquets següents s'han instal·lat automàticament i ja no són necessaris:
+  zsh zsh-common
+Empreu «sudo apt autoremove» per a suprimir-los.
+Se SUPRIMIRAN els paquets següents:
+  cvsgraph
+0 actualitzats, 0 nous a instal·lar, 1 a suprimir i 322 no actualitzats.
+Després d'aquesta operació s'alliberaran 297 kB d'espai en disc.
+(S'està llegint la base de dades… (S'està llegint la base de dades… 5%(S'està llegint la base de dades… 10%(S'està llegint la base de dades… 15%(S'està llegint la base de dades… 20%(S'està llegint la base de dades… 25%(S'està llegint la base de dades… 30%(S'està llegint la base de dades… 35%(S'està llegint la base de dades… 40%(S'està llegint la base de dades… 45%(S'està llegint la base de dades… 50%(S'està llegint la base de dades… 55%(S'està llegint la base de dades… 60%(S'està llegint la base de dades… 65%(S'està llegint la base de dades… 70%(S'està llegint la base de dades… 75%(S'està llegint la base de dades… 80%(S'està llegint la base de dades… 85%(S'està llegint la base de dades… 90%(S'està llegint la base de dades… 95%(S'està llegint la base de dades… 100%(S'està llegint la base de dades… hi ha 574264 fitxers i directoris instal·lats actualment.)
+S'està desinstal·lant cvsgraph (1.7.0-5+b1)…
+S'estan processant els activadors per a man-db (2.11.2-2)…
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet 38hhfww9
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet dfdf432
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+S'està llegint la llista de paquets…
+S'està construint l'arbre de dependències…
+S'està llegint la informació de l'estat…
+E: No s'ha trobat el paquet poopppp33333
