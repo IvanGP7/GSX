@@ -1,0 +1,12 @@
+[Unit]
+Description=Service to check errors from services.
+After=network.target
+
+[Service]
+ExecStart=/home/GSX/monitoritzar_logs.sh %I
+User=root
+StandardOutput=append:/var/log/monitoritzar_logs.log
+StandardError=append:/var/log/monitoritzar_logs.log
+
+[Install]
+WantedBy=multi-user.target

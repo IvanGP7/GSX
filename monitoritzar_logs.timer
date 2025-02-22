@@ -1,0 +1,11 @@
+[Unit]
+Description="Execution of monitoritzar_logs.service every 5 minutes"
+
+[Timer]
+OnActivateSec=1min
+OnUnitActiveSec=1min
+Persistent=true
+Unit=monitoritzar_logs.service
+
+[Install]
+WantedBy=timers.target
