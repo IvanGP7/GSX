@@ -5,9 +5,9 @@
 # test-run: ./missatge_logs.sh accounts-daemon acpid cron dbus getty@tty1 lightdm lxc-monitord mrtg NetworkManager polkit rsyslog udinsk2 upower user@1000 virtualbox-guest-utils
 #
 
-if [ $# == 0 ]; then                                                #Check we recive some param
+if [ -z $1 ]; then                                                #Check we recive some param
     echo "You have to write some services as param"
-    exit 1
+    exit 0
 fi
 
 for service in "$@"; do                                             # For each param:
