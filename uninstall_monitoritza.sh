@@ -7,10 +7,10 @@ sudo systemctl stop monitoritzar_logs.service
 
 
 echo "**STATUS .SERVICE"
-systemctl status monitoritzar_logs.service
+systemctl status monitoritzar_logs.service | cat
 
 echo "**STATUS .TIMER"
-systemctl status monitoritzar_logs.service
+systemctl status monitoritzar_logs.service | cat
 
 echo "Files Removed Successfuly..."
 sudo rm /etc/systemd/system/monitoritzar_logs.service
