@@ -21,5 +21,10 @@ echo "**STATUS .TIMER"
 systemctl status monitoritzar_logs.timer | cat
 
 echo ""
+echo "**Test Missatge_logs"
+./missatge_logs.sh INFO "Testing el INFO de missatges_logs"
+./missatge_logs.sh WARNING "Testing el WARNING de missatges_logs"
+./missatge_logs.sh ERROR "Testing el ERROR de missatges_logs"
+echo ""
 echo "**Check if monitoritzar_logs exist as 'service'"
 systemctl list-units --type=service --all | grep "monitoritzar_logs"

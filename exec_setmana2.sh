@@ -1,8 +1,8 @@
 #!/bin/bash
 
-test_monitoritzar_service(){
+test_monitoritzar_service_systemd(){
     echo "**Clean all the posibles files before testing.**"
-    ./uninstall_monitoritza.sh
+    ./uninstall_monitoritza.sh  2>/dev/null
     sleep 1
 
     echo "**Execute and prepare all service set up with all param.**"
@@ -21,4 +21,6 @@ test_monitoritzar_service(){
 }
 
 
-test_monitoritzar_service
+test_monitoritzar_service_systemd
+
+test_monitoritzar_service_sysV
