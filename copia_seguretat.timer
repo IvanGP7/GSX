@@ -1,0 +1,10 @@
+[Unit]
+Description="Ejecuta el script de copia de seguridad a las 10 PM"
+
+[Timer]
+OnCalendar=*-*-* 22:00:00
+Persistent=true
+Unit=copia_seguretat.service
+
+[Install]
+WantedBy=timers.target

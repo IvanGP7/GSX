@@ -1,0 +1,11 @@
+[Unit]
+Description="Llamada a la copia de seguridad copia_seguretat.sh"
+After=network.target
+
+[Service]
+EnvironmentFile=/home/GSX/copy_directories
+ExecStart=/home/GSX/copia_seguretat.sh
+User=root
+
+[Install]
+WantedBy=multi-user.target

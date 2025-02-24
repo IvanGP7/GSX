@@ -44,6 +44,41 @@ test_monitoritzar_service_sysV(){
     ./uninstall_sysV.sh
 }
 
+test_monitoritzar_service_cron() {
+    echo "**************"
+    echo "*    Cron    *"
+    echo "**************"
+
+    echo "**Execute and prepare all service set up with all param.**"
+    ./install_cron.sh
+
+
+}
+
+test_monitoritzar_service_systemd() {
+    echo "**************"
+    echo "*  Systemd   *"
+    echo "**************"
+
+    echo "**Execute and prepare all service set up with all param.**"
+    ./install_timer.sh
+}
+
+test_cron_timer(){
+
+    test_monitoritzar_service_cron
+
+    test_monitoritzar_service_systemd   
+
+    ./copia_seguretat.sh
+
+    echo "**Remove all service set up**"
+    ./uninstall_cron.sh
+    ./uninstall_timer.sh
+}
+
 test_monitoritzar_service_systemd
 
 test_monitoritzar_service_sysV
+
+test_cron_timer
