@@ -3,7 +3,8 @@ Description=Service to check errors from services.
 After=network.target
 
 [Service]
-ExecStart=/home/GSX/monitoritzar_logs.sh %I
+EnvironmentFile=/home/GSX/services
+ExecStart=/home/GSX/monitoritzar_logs.sh
 User=root
 StandardOutput=append:/var/log/monitoritzar_logs.log
 StandardError=append:/var/log/monitoritzar_logs.log

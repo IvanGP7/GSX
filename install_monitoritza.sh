@@ -4,6 +4,7 @@ echo "Intalling 'monitoritzar_logs.service' every 5 min..."
 
 sudo cp monitoritzar_logs.service /etc/systemd/system/
 sudo cp monitoritzar_logs.timer /etc/systemd/system/
+sudo touch /var/log/monitoritzar_logs.log
 
 echo "Files Copied Successfuly..."
 
