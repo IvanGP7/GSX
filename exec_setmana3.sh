@@ -15,9 +15,20 @@ test_monitoritzar_log(){
     ./monitoritzar_logs.sh polkit acct not-existent-service
 }
 
-test_nice(){
-    nice -n 19 ./copia_seguretat /etc /lib /sys /usr /var
-}
 #test_monitoritzar_log
 
-test_nice
+#Test del nice
+#time ./test_cpu.sh
+
+#test comprovar paquet with SIGINT
+
+# Ruta al script que quieres ejecutar en una nueva pestaña
+SCRIPT_PATH="./comprovar_paquet.sh"
+
+# Abrir una nueva pestaña en la terminal actual y ejecutar el script
+gnome-terminal -- bash -c "$SCRIPT_PATH; sleep 5"
+sleep 3
+sudo kill -SIGINT $(pgrep comprovar_paqu)
+sleep 1
+echo "Test SIGINT finished"
+
