@@ -1,19 +1,16 @@
 #!/bin/bash
 
+if [[ $# == 0 ]]; then
+    echo "Escribe mas de un parametro"
+    echo "$0 <Directorio1> <Directorio2>"
+    exit 1
+fi
+
 
 # Check the Backup directory exist
 directory="/home/GSX/Backups"                              # Save Path of the directory where we will save all backups
 sudo mkdir -p "$directory"                                       # Create directory if does not exist
 
-
-# Crear archivos grandes para que la compresión tarde ~20s
-FS_DIR="/home/milax/fake_fs"
-echo "Creating a File System in $FS_DIR..."
-sudo mkdir -p "$FS_DIR"
-for i in {1..7}; do
-    sudo dd if=/dev/urandom of="$FS_DIR/file_$i.bin" bs=100M count=1 status=none
-done
-echo "Filse System Created!"
 
 # Get actual Date to create the name of the new file
 Date=$(date +"%Y-%m-%d_%Hh-%Mm-%Ss")
@@ -33,7 +30,7 @@ show_progress(){
 trap show_progress SIGUSR1
 
 echo "Crompressing..."
-sudo tar -p --atime-preserve -czf "$BACKUP_FILE" "$FS_DIR" &            # Compress all the files in the new backup
+sudo tar -p --atime-preserve -czf "$BACKUP_FILE" "$@" &            # Compress all the files in the new backup
 
 # Esperar cualquier proceso `tar` en segundo plano
 while pgrep -f "tar.*$BACKUP_FILE" >/dev/null; do
@@ -47,4 +44,3 @@ else
     echo "ERROR: Error creating Buckup file"
     exit 2
 fi
-sudo rm -rf "$FS_DIR"
