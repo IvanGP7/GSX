@@ -1,0 +1,12 @@
+[Unit]
+Description="Servicio de consumo de CPU y memoria"
+After=network.target
+
+[Service]
+ExecStart=/home/GSX/consumidor.sh
+Restart=always
+CPUQuota=50%
+MemoryMax=512M
+
+[Install]
+WantedBy=multi-user.target
