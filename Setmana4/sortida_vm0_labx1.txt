@@ -1,0 +1,99 @@
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: eth0@if9: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 62:a5:f3:2f:dd:21 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+3: eth1@if10: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether b2:a5:8d:8d:f1:9d brd ff:ff:ff:ff:ff:ff link-netnsid 0
+4: eth2@if11: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 02:c5:0e:04:53:aa brd ff:ff:ff:ff:ff:ff link-netnsid 0
+eth0=eth0
+address: 192.0.2.1
+network: 192.0.2.0
+netmask: 255.255.255.0
+broadcast: 192.0.2.255
+address: 172.25.0.1
+network: 172.25.0.0
+netmask: 255.255.0.0
+broadcast: 172.25.0.255
+
+net.ipv4.ip_forward = 1
+
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+172.25.0.0/16
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+192.0.2.0/24
+172.25.0.0/16
+
+active
+udp   UNCONN 0      0          127.0.0.1:53        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=10))
+udp   UNCONN 0      0          192.0.2.1:53        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=8)) 
+udp   UNCONN 0      0         172.25.0.1:53        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=6)) 
+udp   UNCONN 0      0            0.0.0.0:67        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=4)) 
+tcp   LISTEN 0      32         127.0.0.1:53        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=11))
+tcp   LISTEN 0      32        172.25.0.1:53        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=7)) 
+tcp   LISTEN 0      32         192.0.2.1:53        0.0.0.0:*    users:(("dnsmasq",pid=887,fd=9)) 
+
+vm1.dmz.gsx has address 192.0.2.1
+vm2.intranet.gsx has address 172.25.0.1
+vm3.dmz.gsx has address 192.0.2.232
+193.144.16.62
+
+PING 10.0.2.2 (10.0.2.2) 56(84) bytes of data.
+64 bytes from 10.0.2.2: icmp_seq=1 ttl=255 time=0.348 ms
+64 bytes from 10.0.2.2: icmp_seq=2 ttl=255 time=0.825 ms
+64 bytes from 10.0.2.2: icmp_seq=3 ttl=255 time=0.667 ms
+
+--- 10.0.2.2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2008ms
+rtt min/avg/max/mdev = 0.348/0.613/0.825/0.198 ms
+
+PING vm1 (192.0.2.1) 56(84) bytes of data.
+64 bytes from vm1 (192.0.2.1): icmp_seq=1 ttl=64 time=0.073 ms
+64 bytes from vm1 (192.0.2.1): icmp_seq=2 ttl=64 time=0.054 ms
+64 bytes from vm1 (192.0.2.1): icmp_seq=3 ttl=64 time=0.056 ms
+
+--- vm1 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2041ms
+rtt min/avg/max/mdev = 0.054/0.061/0.073/0.008 ms
+
+PING vm2 (172.25.0.1) 56(84) bytes of data.
+64 bytes from vm2 (172.25.0.1): icmp_seq=1 ttl=64 time=0.021 ms
+64 bytes from vm2 (172.25.0.1): icmp_seq=2 ttl=64 time=0.056 ms
+64 bytes from vm2 (172.25.0.1): icmp_seq=3 ttl=64 time=0.043 ms
+
+--- vm2 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2039ms
+rtt min/avg/max/mdev = 0.021/0.040/0.056/0.014 ms
+
+PING 1.1.1.1 (1.1.1.1) 56(84) bytes of data.
+64 bytes from 1.1.1.1: icmp_seq=1 ttl=255 time=18.7 ms
+
+--- 1.1.1.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 18.713/18.713/18.713/0.000 ms
+
+search intranet.gsx dmz.gsx
+nameserver 127.0.0.1
+-rw-r--r-- 1 root root 1431 13 de març  20:39 /etc/dnsmasq.conf
+-rw-r--r-- 1 root root  219 13 de març  21:15 /etc/hosts
+-rw-r--r-- 1 root root   49 13 de març  21:15 /etc/resolv.conf
+
