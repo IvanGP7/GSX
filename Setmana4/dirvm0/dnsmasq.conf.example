@@ -7,7 +7,7 @@ expand-hosts			# expands hostnames to FQDN
 
 #private domain, never leaves your LAN
 domain=dmz.gsx,192.0.2.0/24,local
-domain=intranet.gsx,172.25.0.0,local
+domain=intranet.gsx,172.25.0.0/16,local
 
 listen-address=127.0.0.1 
 listen-address=192.0.2.1
@@ -36,7 +36,7 @@ dhcp-option=lan1,3,192.0.2.1
 dhcp-option=lan2,3,172.25.0.1
 
 # set DNS servers
-dhcp-option=lan1,option:dns-server,
+dhcp-option=lan1,option:dns-server,192.0.2.1
 dhcp-option=lan1,option:domain-search,dmz.gsx,intranet.gsx
 # options can be discovered by running "dnsmasq --help dhcp"
 dhcp-option=lan2,6,172.25.0.1
