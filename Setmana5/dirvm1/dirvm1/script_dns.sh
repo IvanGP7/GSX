@@ -118,12 +118,13 @@ cat <<EOF > /etc/bind/db.dmz.gsx
 ;
 @       IN      NS      ns.dmz.gsx.
 ns      IN      A       192.0.2.2
-ns	IN	MX 10 	correu.dmz.gsx.
+
 ; Listado de otros ordenadores
 router  IN      A       192.0.2.1
 dns	IN	A	192.0.2.2
 www     IN      A       192.0.2.254
 correu  IN      A       192.0.2.254
+correu	IN      MX 10   correu.dmz.gsx.
 server  IN      CNAME   www.
 EOF
 
