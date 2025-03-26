@@ -18,3 +18,11 @@ echo "Configuración aplicada:"
 echo "MAC: $(cat /sys/class/net/eth0/address)"
 echo "IP: $(hostname -I)"
 echo "Hostname: $(hostname)"
+
+
+if ! dpkg -l | grep -q "apache2";then
+        apt-get update
+        apt-get install -y apache2
+else
+        echo "Apache2 ya esta instalado"
+fi

@@ -7,12 +7,6 @@ else
 	echo "Config dhclient hecha"
 fi
 
-cat << EOF > /etc/resolv.conf
-domain intranet.gsx
-search intranet.gsx dmz.gsx
-nameserver 192.0.2.2
-EOF
-chattr +i /etc/resolv.conf
 cp ./actualitza_nom_local /etc/dhcp/dhclient-exit-hooks.d/
 
 chmod 777 /etc/dhcp/dhclient-exit-hooks.d/actualitza_nom_local

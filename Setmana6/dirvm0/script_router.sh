@@ -1,6 +1,14 @@
 #!/bin/bash
+dpkg -l | grep -q "ii  dnsmasq"
+if [ $? != 0];then
+	apt-get update
+	apt-get install -y dnsmasq
+else
+	echo "Dnsmasq ya esta instalado"
+fi
 
-sudo echo "router" > /etc/hostname
+
+echo "router" > /etc/hostname
 hostname -F /etc/hostname
 echo "Configurando red..."
 cat <<EOF > /etc/network/interfaces
@@ -49,10 +57,10 @@ echo "*****************"
 echo ""
 
 echo "Iniciando Ifup"
-ifdown eth1
-ifup eth1
-ifdown eth2
-ifup eth2
+ifdown eth1 > /dev/null
+ifup eth1 > /dev/null
+ifdown eth2 > /dev/null
+ifup eth2 > /dev/null
 echo ""
 echo "Activando ip_forward"
 if ! grep "^net.ipv4.ip_forward=1" /etc/sysctl.conf; then
@@ -141,7 +149,7 @@ dhcp-option=lan1,3,192.0.2.1
 dhcp-option=lan2,3,172.25.0.1
 
 # set DNS servers
-dhcp-option=lan1,option:dns-server,192.0.2.1
+dhcp-option=lan1,option:dns-server,192.0.2.2
 dhcp-option=lan1,option:domain-search,dmz.gsx,intranet.gsx
 # options can be discovered by running "dnsmasq --help dhcp"
 dhcp-option=lan2,6,172.25.0.1
@@ -239,11 +247,30 @@ prepend domain-name-servers 127.0.0.1;
 #  expire 2 2000/1/12 00:00:01;
 #}
 EOF
-ifdown eth0
-ifup eth0
+ifdown eth0 > /dev/null
+ifup eth0 > /dev/null
 
 
 cat << EOF > /etc/resolv.conf
 search intranet.gsx dmz.gsx
 nameserver 192.0.2.2
 EOF
+
+#!/bin/bash
+
+# Configuración de IPs
+IPexternaVM0=$(ip route get 1 | awk '{print $7}' | head -n 1)
+IPdestino="192.0.2.254"
+
+# Verificar si la regla ya existe
+if ! iptables -t nat -L PREROUTING -n | grep -q "DNAT.*$IPexternaVM0.*to:$IPdestino"; then
+    echo "[+] Añadiendo regla DNAT: $IPexternaVM0 -> $IPdestino"
+    iptables -t nat -A PREROUTING -d "$IPexternaVM0" -j DNAT --to-destination "$IPdestino"
+else
+    echo "[+] La regla DNAT ya existe:"
+    iptables -t nat -L PREROUTING -n | grep "DNAT.*$IPexternaVM0"
+fi
+
+# Mostrar resumen de reglas
+echo -e "\n[+] Reglas NAT actuales:"
+iptables -t nat -L PREROUTING -n

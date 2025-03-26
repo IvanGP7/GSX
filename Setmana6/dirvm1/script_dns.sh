@@ -6,14 +6,15 @@ hostname -F /etc/hostname
 
 dpkg -l | grep -q "ii  bind9"                                  # Check if the package is installed
 if [ $? != 0 ]; then                                            # If result is 0 then exist
-	echo "Falta por Instalar bind9"
-	exit 1
+	apt-get update
+	apt-get install -y bind9
 fi
 
 dpkg -l | grep -q "ii  bind9-utils"                                  # Check if the p>
 if [ $? != 0 ]; then                                            # If result is >
-        echo "Falta por Instalar Bind9-utils"
-        exit 1
+        apt-get update
+        apt-get install -y bind9-utils
+
 fi
 
 #1. Configurar /etc/resolv.conf
