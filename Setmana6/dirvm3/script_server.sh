@@ -1,5 +1,14 @@
 #!/bin/bash
 
+
+if ! dpkg -l | grep -q "apache2";then
+        apt-get update
+        apt install -y apache2
+else
+        echo "Apache2 ya esta instalado"
+fi
+
+
 MAC_ADDR="86:df:50:46:29:c3"
 ip link set dev eth0 address $MAC_ADDR
 
@@ -18,11 +27,3 @@ echo "Configuración aplicada:"
 echo "MAC: $(cat /sys/class/net/eth0/address)"
 echo "IP: $(hostname -I)"
 echo "Hostname: $(hostname)"
-
-
-if ! dpkg -l | grep -q "apache2";then
-        apt-get update
-        apt-get install -y apache2
-else
-        echo "Apache2 ya esta instalado"
-fi

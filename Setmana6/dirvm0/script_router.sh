@@ -1,8 +1,8 @@
 #!/bin/bash
-dpkg -l | grep -q "ii  dnsmasq"
-if [ $? != 0];then
+
+if ! dpkg -l | grep -q "ii  dnsmasq";then
 	apt-get update
-	apt-get install -y dnsmasq
+	apt install -y dnsmasq
 else
 	echo "Dnsmasq ya esta instalado"
 fi
@@ -152,7 +152,7 @@ dhcp-option=lan2,3,172.25.0.1
 dhcp-option=lan1,option:dns-server,192.0.2.2
 dhcp-option=lan1,option:domain-search,dmz.gsx,intranet.gsx
 # options can be discovered by running "dnsmasq --help dhcp"
-dhcp-option=lan2,6,172.25.0.1
+dhcp-option=lan2,6,192.0.2.2
 dhcp-option=lan2,119,intranet.gsx,dmz.gsx
 
 # known hosts: static IP & name

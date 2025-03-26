@@ -4,14 +4,14 @@ sudo echo "dns" > /etc/hostname
 hostname -F /etc/hostname
 # Instalar BIND9
 
-dpkg -l | grep -q "ii  bind9"                                  # Check if the package is installed
-if [ $? != 0 ]; then                                            # If result is 0 then exist
+#Check if the package is installed
+if ! dpkg -l | grep -q "ii  bind9 "; then                                            # If result is 0 then exist
 	apt-get update
 	apt-get install -y bind9
 fi
 
-dpkg -l | grep -q "ii  bind9-utils"                                  # Check if the p>
-if [ $? != 0 ]; then                                            # If result is >
+#Check if the p>
+if ! dpkg -l | grep -q "ii  bind9-utils "; then                                            # If result is >
         apt-get update
         apt-get install -y bind9-utils
 
