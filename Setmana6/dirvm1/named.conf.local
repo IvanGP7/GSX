@@ -1,0 +1,19 @@
+zone "intranet.gsx" {
+    type master;
+    file "/etc/bind/db.intranet.gsx";
+};
+
+zone "dmz.gsx" {
+    type master;
+    file "/etc/bind/db.dmz.gsx";
+};
+
+zone "25.172.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.172.25";
+};
+
+zone "2.0.192.in-addr.arpa" {
+    type master;
+    file "/etc/bind/db.192.0.2";
+};

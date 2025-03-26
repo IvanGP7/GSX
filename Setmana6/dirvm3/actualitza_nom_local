@@ -1,0 +1,33 @@
+#!/bin/sh 
+# Actualitza el hostname rebut per DHCP
+
+if [ "$interface" != "eth0" ]
+then 
+    return 
+fi 
+case $reason in
+	BOUND|RENEW|REBIND|REBOOT)
+		;;
+	*)
+		return
+		;;
+esac
+
+echo
+echo "dhclient-exit-hooks.d/actualitza_nom_local DEBUG:"
+echo "dhclient-debug: IP assignada= $new_ip_address / $new_subnet_mask"
+echo "dhclient-debug: Nom assignat= ${new_host_name}.${new_domain_name}"
+
+nounom=$(dig -4 +short +time=1 +tries=1 -x $new_ip_address)
+[ $? -ne 0 ] && echo "dhclient-debug: el DNS no respon" && return 1
+nounom=$(echo $nounom | cut -f1 -d'.') # no FQDN
+
+if [ ! -z ${nounom} ]; then
+	echo "dhclient-debug: Nou nom= ${nounom}"
+	# fer l'actualització del nom permanent:
+	echo ${nounom} > /etc/hostname 
+	# fer l'actualització del nom efectiva:
+	hostname -F /etc/hostname
+else
+	echo "dhclient-debug: hostname no canviat."
+fi
