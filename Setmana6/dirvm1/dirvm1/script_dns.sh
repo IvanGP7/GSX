@@ -3,9 +3,10 @@
 sudo echo "dns" > /etc/hostname
 hostname -F /etc/hostname
 # Instalar BIND9
+
 ifdown eth0; ifup eth0
 ifdown eth1; ifup eth1
-echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+
 
 #Check if the package is installed
 if ! dpkg -l | grep -q "ii  bind9 "; then                                            # If result is 0 then exist
@@ -20,7 +21,12 @@ if ! dpkg -l | grep -q "ii  bind9-utils "; then                                 
 
 fi
 
-sed -i '$d' /etc/resolv.conf
+#1. Configurar /etc/resolv.conf
+#cat <<EOF > /etc/resolv.conf
+#nameserver 127.0.0.1
+#search intranet.gsx dmz.gsx
+#domain dmz.gsx
+#EOF
 
 cp /etc/bind/named* ./
 

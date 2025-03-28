@@ -1,5 +1,6 @@
 #!/bin/bash
 
+ifdown eth0; ifup eth0
 
 if ! dpkg -l | grep -q "apache2";then
         apt-get update

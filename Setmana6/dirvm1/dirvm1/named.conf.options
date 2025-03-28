@@ -1,0 +1,16 @@
+options {
+    directory "/var/lib/bind";
+    forwarders {
+        8.8.8.8;  # Servidor DNS de Google
+    };
+    allow-recursion {
+        172.25.0.0/16;  # Intranet
+        192.0.2.0/24;   # DMZ
+    };
+    allow-transfer {
+        127.0.0.1;  # Solo permitir transferencias de zona desde localhost
+    };
+    dnssec-validation auto;
+
+   listen-on-v6 { none; };
+};
