@@ -54,14 +54,44 @@ if [ -f afegir_fet.c ]; then
 	echo "Ejecución afegir_fet.c"
 	sudo chmod 744 afegir_fet.c
 	sudo gcc afegir_fet.c -o afegir_fet
-	
+
 	echo -e "\n -Test con Dev1"
 	sudo -u dev1 ./afegir_fet "Mensaje Pruebas"
 	sudo cat /home/techsoft/fet.log
-	
+
 	echo -e "\n -Test con Dev3"
 	sudo -u dev3 ./afegir_fet "Mensaje de Error"
 else
 	echo "Archivo afegir_fet.c no encontrado en la carpeta actual de ejecución"
 fi
+
+# Configurar los límites de uso
+if ! grep "^@techsoft	soft	nproc		100$" /etc/security/limits.conf ;then
+	echo "@techsoft	soft	nproc		100" | sudo tee -a /etc/security/limits.conf
+fi
+if ! grep "^@techsoft	hard	nproc		100$" /etc/security/limits.conf ;then
+	echo "@techsoft	hard	nproc		100" | sudo tee -a /etc/security/limits.conf
+fi
+if ! grep "^@techsoft	soft	nofile		2048$" /etc/security/limits.conf ;then
+	echo "@techsoft	soft	nofile		2048" | sudo tee -a /etc/security/limits.conf
+fi
+if ! grep "^@techsoft	hard	nofile		2048$" /etc/security/limits.conf ;then
+	echo "@techsoft	hard	nofile		2048" | sudo tee -a /etc/security/limits.conf
+fi
+
+echo -e "\nTest Limites"
+echo -e "- Cat limits.conf:"
+cat /etc/security/limits.conf | tail -10
+
+echo -e "\n- Test por Usuario"
+
+echo "milax:"
+sudo -u milax bash -c 'echo "nproc : $(ulimit -u)"; echo "nofile: $(ulimit -n)"'
+echo ""
+echo "Dev1:"
+sudo -u dev1 bash -c 'echo "nproc : $(ulimit -u)"; echo "nofile: $(ulimit -n)"'
+echo "Dev2:"
+sudo -u dev2 bash -c 'echo "nproc : $(ulimit -u)"; echo "nofile: $(ulimit -n)"'
+echo "Dev3:"
+sudo -u dev3 bash -c 'echo "nproc : $(ulimit -u)"; echo "nofile: $(ulimit -n)"'
 
