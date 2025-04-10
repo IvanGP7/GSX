@@ -65,23 +65,58 @@ else
 	echo "Archivo afegir_fet.c no encontrado en la carpeta actual de ejecución"
 fi
 
+# Configuración limites ulimit
+cat << 'EOF' | sudo tee /etc/profile.d/techsoft_limits.sh > /dev/null
+#!/bin/bash
+# If user is assigned to techsoft group, apply limits
+if id -nG "$USER" | grep -qw techsoft; then
+    ulimit -u 100       # Maximum processes
+    ulimit -n 2048      # Maximum opened files
+fi
+EOF
+sudo chmod +x /etc/profile.d/techsoft_limits.sh
+
 # Configurar los límites de uso
-if ! grep "^@techsoft	soft	nproc		100$" /etc/security/limits.conf ;then
-	echo "@techsoft	soft	nproc		100" | sudo tee -a /etc/security/limits.conf
+if ! grep -q "^@techsoft	soft	nproc		50$" /etc/security/limits.conf ;then
+	echo "@techsoft	soft	nproc		50" | sudo tee -a /etc/security/limits.conf
 fi
-if ! grep "^@techsoft	hard	nproc		100$" /etc/security/limits.conf ;then
-	echo "@techsoft	hard	nproc		100" | sudo tee -a /etc/security/limits.conf
+if ! grep -q "^@techsoft	hard	nproc		50$" /etc/security/limits.conf ;then
+	echo "@techsoft	hard	nproc		50" | sudo tee -a /etc/security/limits.conf
 fi
-if ! grep "^@techsoft	soft	nofile		2048$" /etc/security/limits.conf ;then
-	echo "@techsoft	soft	nofile		2048" | sudo tee -a /etc/security/limits.conf
+if ! grep -q "^@techsoft	soft	as		1048576$" /etc/security/limits.conf ;then
+	echo "@techsoft	soft	as		1048576" | sudo tee -a /etc/security/limits.conf
 fi
-if ! grep "^@techsoft	hard	nofile		2048$" /etc/security/limits.conf ;then
-	echo "@techsoft	hard	nofile		2048" | sudo tee -a /etc/security/limits.conf
+if ! grep -q "^@techsoft	hard	as		1048576$" /etc/security/limits.conf ;then
+	echo "@techsoft	hard	as		1048576" | sudo tee -a /etc/security/limits.conf
 fi
 
-echo -e "\nTest Limites"
+echo -e "\nTEST LIMITES Ulimits"
 echo -e "- Cat limits.conf:"
 cat /etc/security/limits.conf | tail -10
+
+if ! grep -q "hope you have a nice day" /etc/profile;then
+sudo tee -a /etc/profile > /dev/null << 'EOF'
+if id -nG "$USER" | grep -qw techsoft; then
+        echo "****************************"
+        echo "Welcome $USER, hope you have a nice day!"
+        echo "****************************"
+fi
+EOF
+fi
+
+sudo tee -a /etc/profile.d/techsoft.sh > /dev/null << 'EOF'
+#!/bin/bash
+
+# If user is on techsoft group, add /home/techsoft/bin to PATH
+if id -nG "$USER" | grep -qw techsoft; then
+    export PATH="$PATH:/home/techsoft/bin"
+fi
+EOF
+
+
+
+
+
 
 echo -e "\n- Test por Usuario"
 
@@ -94,4 +129,13 @@ echo "Dev2:"
 sudo -u dev2 bash -c 'echo "nproc : $(ulimit -u)"; echo "nofile: $(ulimit -n)"'
 echo "Dev3:"
 sudo -u dev3 bash -c 'echo "nproc : $(ulimit -u)"; echo "nofile: $(ulimit -n)"'
+
+
+echo -e "\nTEST LIMITES PAM"
+
+
+
+
+
+
 
