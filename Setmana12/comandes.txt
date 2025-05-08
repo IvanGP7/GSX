@@ -1,0 +1,107 @@
+Verifiación de los modulos...
+Module                  Size  Used by
+veth                   36864  0
+xt_conntrack           16384  1
+nft_chain_nat          16384  3
+xt_MASQUERADE          20480  1
+nf_nat                 57344  2 nft_chain_nat,xt_MASQUERADE
+nf_conntrack_netlink    57344  0
+nf_conntrack          188416  4 xt_conntrack,nf_nat,nf_conntrack_netlink,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+xfrm_user              53248  1
+xfrm_algo              16384  1 xfrm_user
+xt_addrtype            16384  2
+nft_compat             20480  4
+nf_tables             303104  57 nft_compat,nft_chain_nat
+libcrc32c              16384  3 nf_conntrack,nf_nat,nf_tables
+nfnetlink              20480  4 nft_compat,nf_conntrack_netlink,nf_tables
+br_netfilter           36864  0
+bridge                311296  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+overlay               163840  0
+snd_seq_dummy          16384  0
+snd_hrtimer            16384  1
+snd_seq                90112  7 snd_seq_dummy
+snd_seq_device         16384  1 snd_seq
+intel_rapl_msr         20480  0
+intel_rapl_common      32768  1 intel_rapl_msr
+intel_pmc_core         53248  0
+ghash_clmulni_intel    16384  0
+sha512_ssse3           49152  0
+sha512_generic         16384  1 sha512_ssse3
+sha256_ssse3           32768  0
+sha1_ssse3             32768  0
+snd_intel8x0           49152  1
+snd_ac97_codec        176128  1 snd_intel8x0
+vboxvideo              32768  1
+aesni_intel           393216  0
+ac97_bus               16384  1 snd_ac97_codec
+vboxsf                 45056  0
+drm_vram_helper        20480  1 vboxvideo
+snd_pcm               159744  2 snd_intel8x0,snd_ac97_codec
+cfg80211             1146880  0
+crypto_simd            16384  1 aesni_intel
+drm_ttm_helper         16384  2 drm_vram_helper,vboxvideo
+cryptd                 28672  2 crypto_simd,ghash_clmulni_intel
+snd_timer              49152  3 snd_seq,snd_hrtimer,snd_pcm
+rapl                   20480  0
+ttm                    94208  2 drm_vram_helper,drm_ttm_helper
+joydev                 28672  0
+rfkill                 36864  4 cfg80211
+snd                   126976  10 snd_seq,snd_seq_device,snd_intel8x0,snd_timer,snd_ac97_codec,snd_pcm
+pcspkr                 16384  0
+soundcore              16384  1 snd
+vboxguest              49152  6 vboxsf
+drm_kms_helper        212992  4 drm_vram_helper,vboxvideo
+ac                     20480  0
+button                 24576  0
+evdev                  28672  13
+serio_raw              20480  0
+sg                     40960  0
+binfmt_misc            28672  1
+drm                   614400  7 drm_kms_helper,drm_vram_helper,vboxvideo,drm_ttm_helper,ttm
+fuse                  176128  1
+efi_pstore             16384  0
+dm_mod                184320  0
+loop                   32768  0
+configfs               57344  1
+ip_tables              36864  0
+x_tables               61440  5 xt_conntrack,nft_compat,xt_addrtype,ip_tables,xt_MASQUERADE
+autofs4                53248  2
+ext4                  983040  1
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                  167936  1 ext4
+crc32c_generic         16384  0
+sd_mod                 65536  3
+t10_pi                 16384  1 sd_mod
+crc64_rocksoft         20480  1 t10_pi
+crc64                  20480  1 crc64_rocksoft
+crc_t10dif             20480  1 t10_pi
+crct10dif_generic      16384  0
+ahci                   49152  2
+libahci                49152  1 ahci
+libata                401408  2 libahci,ahci
+crct10dif_pclmul       16384  1
+pcnet32                49152  0
+scsi_mod              286720  3 sd_mod,libata,sg
+crct10dif_common       16384  3 crct10dif_generic,crc_t10dif,crct10dif_pclmul
+video                  65536  0
+crc32_pclmul           16384  0
+psmouse               184320  0
+crc32c_intel           24576  3
+mii                    16384  1 pcnet32
+scsi_common            16384  3 scsi_mod,libata,sg
+i2c_piix4              28672  0
+battery                28672  0
+wmi                    36864  1 video
+Montaje de la imagen...
+Revisar montaje...
+loop                   32768  0
+ext4                  983040  1
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                  167936  1 ext4
+Ver modulos de uso para el montaje...

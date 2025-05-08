@@ -25,12 +25,12 @@ done
 # Para guardar programas y scripts, solo el grupo techsoft puede escribir
 sudo mkdir -p /home/techsoft/bin
 sudo chown :techsoft /home/techsoft/bin
-sudo chmod 770 /home/techsoft/bin
+sudo chmod 2770 /home/techsoft/bin
 
 # Compartir archivos del grupo techsoft contra protección de borrados (SGID bit)
 sudo mkdir -p /home/techsoft/shared
 sudo chown :techsoft /home/techsoft/shared
-sudo chmod 2770 /home/techsoft/shared
+sudo chmod 1770 /home/techsoft/shared
 
 # Creación del archivo fet.log perteneciente al usuario dev1
 sudo touch /home/techsoft/fet.log
