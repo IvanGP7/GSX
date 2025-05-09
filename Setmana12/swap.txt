@@ -1,0 +1,22 @@
+Creando fichero Swap de 64MB en /var/swap ...
+Configurando permisos...
+Formateando como swap...
+Setting up swapspace version 1, size = 64 MiB (67104768 bytes)
+sense etiqueta, UUID=5ebc3c63-9aa5-49b4-b1d9-1b3c558d1619
+Entrada añadida a /etc/fstab
+Verificación
+-------
+
+NAME      TYPE      SIZE USED PRIO
+/dev/sda3 partition 975M   0B   -2
+/var/swap file       64M   0B   -3
+-------
+
+               total        used        free      shared  buff/cache   available
+Mem:           9,2Gi       1,0Gi       3,9Gi       1,4Mi       4,6Gi       8,2Gi
+Swap:          1,0Gi          0B       1,0Gi
+-------
+
+/var/swap none swap sw 0 0
+-------
+

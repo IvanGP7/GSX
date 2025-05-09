@@ -99,9 +99,12 @@ battery                28672  0
 wmi                    36864  1 video
 Montaje de la imagen...
 Revisar montaje...
-loop                   32768  0
+vfat                   24576  1
+fat                    90112  1 vfat
+loop                   32768  2
 ext4                  983040  1
 crc16                  16384  1 ext4
 mbcache                16384  1 ext4
 jbd2                  167936  1 ext4
 Ver modulos de uso para el montaje...
+/dev/loop0 /mnt vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 0
