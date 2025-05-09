@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Verificación de que el usuario está en el grupo techsoft
+
+if id -nG "$USER" | grep -qw "techsoft"; then
+	# Preguntar la contraseña con stty
+	stty -echo
+	tput setaf 3 # Color Amarillo
+	echo -n "Escribe la contraseña: "
+	read -r passwd
+	tput sgr0	# Restaurar Color
+	stty echo
+	echo ""
+
+	# Confirmar que la contraseña sea la correcta
+	if [ "$passwd" != "siusplau" ]; then
+	tput setaf 1 # Color rojo
+	echo "[!] Error con la contraseña. No se enviará a imprimir el archivo."
+	exit 1
+	fi
+
+fi
+
+
+exec /usr/bin/lp "$@"
+
+
+
+
+
+

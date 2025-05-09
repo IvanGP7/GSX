@@ -1,0 +1,115 @@
+----------- SWAP -----------
+
+FICHERO="/var/swap"
+
+milax@casa:~$ sudo dd if=/dev/zero of=${FICHERO} bs=4096k count=16
+-Sin salida
+
+milax@casa:~$ sudo chmod 600 ${FICHERO}
+-Sin salida
+
+milax@casa:~$ sudo mkswap ${FICHERO} 
+Setting up swapspace version 1, size = 64 MiB (67104768 bytes)
+
+milax@casa:~$ sudo swapon ${FICHERO}
+sense etiqueta, UUID=5ebc3c63-9aa5-49b4-b1d9-1b3c558d1619
+
+
+	*** COMPROBACIONES ***
+
+milax@casa:~$ grep -q "${FICHERO}" /etc/fstab
+/var/swap none swap sw 0 0
+
+milax@casa:~$ sudo swapon --show
+NAME      TYPE      SIZE USED PRIO
+/dev/sda3 partition 975M   0B   -2
+/var/swap file       64M   0B   -3
+
+milax@casa:~$ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           9,2Gi       1,0Gi       3,9Gi       1,4Mi       4,6Gi       8,2Gi
+Swap:          1,0Gi          0B       1,0Gi
+
+
+
+
+
+
+----------- MODULO -----------
+
+milax@casa:~$ sudo mount -o loop memtest86-usb.img /mnt
+-Sin salida
+
+
+	*** COMPROBACIONES ***
+
+milax@casa:~$ lsmod | grep -E 'loop|fat|vfat|ext|ntfs|iso'
+vfat                   24576  1
+fat                    90112  1 vfat
+loop                   32768  2
+ext4                  983040  1
+crc16                  16384  1 ext4
+mbcache                16384  1 ext4
+jbd2                  167936  1 ext4
+
+milax@casa:~$ cat /proc/mounts | grep '/mnt'
+/dev/loop0 /mnt vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 0
+
+
+
+
+----------- IMPRESSORA -----------
+
+milax@casa:~$ sudo sed -i "s|^Out.*|Out \${HOME}/DocumentsPDF|g" /etc/cups/cups-pdf.conf
+-Sin salida
+
+milax@casa:~$ sudo lpadmin -p ImpressoraPDF -E -v cups-pdf:/ -m lsb/usr/cups-pdf/CUPS-PDF_opt.ppd
+
+milax@casa:~$ sudo lpadmin -d ImpressoraPDF -o printer-opolicy=default  -u allow:@techsoft
+
+
+
+
+
+	*** COMPROBACIONES ***
+
+
+milax@casa:~$ sudo lpstat -p
+la impressora ImpressoraPDF està inactiva. Està activada des de divendres, 9 de maig de 2025, 12:45:25
+la impressora PDF està inactiva. Està activada des de divendres, 9 de maig de 2025, 12:45:23
+
+dev1@casa:~$ lpstat -d
+destí per defecte del sistema: ImpressoraPDF
+
+milax@casa:/home/GSX/Setmana12$ lpstat -d
+destí per defecte del sistema: PDF
+
+
+
+----------- lp -----------
+
+>>> archivo lp en /usr/local/bin/lp
+
+	*** COMPROBACIONES ***
+
+dev1@casa:~$ lp -q 99 prueba_impressio.txt 
+Escribe la contraseña: 
+[!] Error con la contraseña. No se enviará a imprimir el archivo.
+
+dev1@casa:~$ lp -q 99 prueba_impressio.txt 
+Escribe la contraseña: 
+l'identificador de la petició és ImpressoraPDF-20 (1 fitxer(s))
+
+dev1@casa:~$ ls -l DocumentsPDF/
+total 16
+-rw------- 1 dev1 dev1 4452  9 de maig  18:13 prueba_impressio.txt__umentsPDF-job_19.pdf
+-rw------- 1 dev1 dev1 4452  9 de maig  18:51 prueba_impressio.txt__umentsPDF-job_20.pdf
+
+
+
+
+
+
+
+
+
