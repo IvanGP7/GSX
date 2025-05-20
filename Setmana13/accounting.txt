@@ -1,0 +1,23 @@
+milax
+/home/GSX/Setmana13
+total 28
+-rwxr-xr-x 1 milax milax   611 20 de maig  13:14 accounting.sh
+-rw-r--r-- 1 milax milax    26 20 de maig  13:17 accounting.txt
+-rwxr-xr-x 1 root  root    486 20 de maig  13:12 monitoritzacio.sh
+-rw-r--r-- 1 milax milax 27445 20 de maig  13:17 monitoritzacio.txt
+dimarts, 20 de maig de 2025, 13:17:34 CEST
+=== Último inicio de sesión ===
+milax    tty7         :0               Tue May 20 13:05   still logged in
+=== Último comando ejecutado ===
+root
+/home/GSX/Setmana13
+total 32
+-rwxr-xr-x 1 milax milax   611 20 de maig  13:14 accounting.sh
+-rw-r--r-- 1 milax milax   507 20 de maig  13:17 accounting.txt
+-rwxr-xr-x 1 root  root    486 20 de maig  13:12 monitoritzacio.sh
+-rw-r--r-- 1 milax milax 27445 20 de maig  13:17 monitoritzacio.txt
+dimarts, 20 de maig de 2025, 13:17:49 CEST
+=== Último inicio de sesión ===
+
+=== Último comando ejecutado ===
+accton           S     root     __         0.00 secs Mon Feb 24 13:48
